@@ -229,5 +229,6 @@ def update_figure(json_data, selected_layer, z_aspect, lock_toggle, mask_data):
     return fig
 
 if __name__ == '__main__':
-    server=app.server
     app.run_server(debug=True)
+    
+server=app.server
